@@ -15,7 +15,6 @@ This code is provided as an experimental implementation for testing purposes and
   * [`boost`](https://www.boost.org/) (version >=1.75.0)
   * `OpenMP`
   * [`OpenSSL`](https://www.openssl.org/) (version >=1.1.0)
-  * `flatbuffers` 
 * **Don't Eject The Impostor** tested on:
   * `g++` 13.1.1
   * `make` 4.4.1
@@ -23,7 +22,6 @@ This code is provided as an experimental implementation for testing purposes and
   * [`boost`](https://www.boost.org/) 1.81.0
   * `OpenMP` 15.0.7
   * [`OpenSSL`](https://www.openssl.org/) 3.1.1
-  * `flatbuffers` 23.5.26
 
 ## Building MOTION
 
@@ -37,7 +35,7 @@ This code is provided as an experimental implementation for testing purposes and
     ```
     This also initializes and updates the Git submodules of the dependencies
     located in `extern/`. If one of the dependencies is already installed at a standard location, CMake will try to use the installed version.
-    **Note that the automatically installed flatbuffers may lead to problems. Please manually install an up-to-date version**
+    **If building one of the automatically installed submodules leads to problems (which may happen for g++ versions deviating from what we tested on (13.1.1)), please manually install an up-to-date version on your system.**
 
 4. Call `make` in the build directory.
    Optionally, add `-j $number_of_parallel_jobs` to `make` for faster compilation.

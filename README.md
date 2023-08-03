@@ -4,7 +4,7 @@ Our implementations are based on the MPC framework MOTION ([ePrint](https://ia.c
 
 This code is provided as an experimental implementation for testing purposes and should not be used in a productive environment. We cannot guarantee security and correctness.
 
-Supplementary material that for completeness contains all additionally required gates like truncation and ReLU for machine learning operations is provided in [this file](supplementary_material.pdf).
+We provide supplementary material in [this file](supplementary_material.pdf), which includes all additionally required gates, such as truncation and ReLU, for machine learning operations, ensuring completeness.
 
 ## Requirements
 

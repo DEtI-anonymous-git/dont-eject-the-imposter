@@ -4,6 +4,8 @@ Our implementations are based on the MPC framework MOTION ([ePrint](https://ia.c
 
 This code is provided as an experimental implementation for testing purposes and should not be used in a productive environment. We cannot guarantee security and correctness.
 
+Supplementary material that for completeness contains all additionally required gates like truncation and ReLU for machine learning operations is provided in [this file](supplementary_material.pdf).
+
 ## Requirements
 
 * A **Linux distribution** of your choice (MOTION was developed and tested with [Ubuntu](http://www.ubuntu.com/), [Manjaro](https://manjaro.org/) and [Arch Linux](https://www.archlinux.org/), we worked with Manjaro and Arch Linux on x86_64 architecture).
